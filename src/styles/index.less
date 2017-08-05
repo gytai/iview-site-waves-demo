@@ -1,0 +1,96 @@
+.index{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #141a48;
+    background-image: url("../images/bg-new.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    h1{
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        .img-logo{
+            width: 90px;
+            height: 90px;
+        }
+        .img-name{
+            width: 90px;
+            height: 40px;
+            position: relative;
+            left: -5px;
+        }
+    }
+    h2{
+        color: #fff;
+        font-weight: normal;
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .list{
+        margin: 40px 0 200px;
+        a{
+            color: #0099fb;
+            font-size: 16px;
+            display: inline-block;
+            padding: 10px;
+            position: relative;
+            transition: color 0.3s;
+            &:before, &:after{
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: #fff;
+                content: '';
+                opacity: 0;
+                transition: opacity 0.3s, transform 0.3s;
+                transform: translateY(-10px);
+            }
+            &:before{
+                top: 0;
+                transform: translateY(-10px);
+            }
+            &:after{
+                bottom: 0;
+                transform: translateY(10px);
+            }
+
+            &:hover{
+                color: #fff
+            }
+            &:hover::before,&:hover::after{
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+    }
+    .ivu-row-flex{
+        height: 100%;
+    }
+    &-lang{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 10;
+        & span{
+            display: inline-block;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+
+#indexLizi{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+}
