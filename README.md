@@ -13,3 +13,6 @@ iView 首页动画Demo
 学习vue 建议大家学习一下es6哦。
 
 欢迎大家一起学习。
+
+效果如下：
+![Alt text](https://github.com/gytai/iview-site-waves-demo/blob/master/sample.png)
