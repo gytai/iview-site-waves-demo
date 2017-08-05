@@ -5,7 +5,7 @@ iView 首页动画Demo
 所以就想看看他是怎么做的。
 
 看了一下 官网的例子。动画使用的是three.js 做的。这是一个js 实现3d效果的库。很不错哦
-喜欢的朋友点击 https://threejs.org/即可查看文档。
+喜欢的朋友点击 https://threejs.org/
 
 作为新手注意的就是 官网的例子是直接用script形式引入，es6 是不能直接使用，需要使用export 导出后 再import 引用即可。
 大家可以使用我代码的里面的three 文件夹里面的文件就行了。
